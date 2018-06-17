@@ -3,13 +3,13 @@
 ![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/mainpage.PNG)
 
 # Searching
-![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/Filter.PNG| width=400|height=380)
+![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/Filter.PNG| width=400| height=380)
 
 # Sorting
-![Sorting](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/sorting.PNG| width=400|height=380)
+![Sorting](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/sorting.PNG| width=400| height=380)
 
 # Card View
-![Card View](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/cardview.PNG| width=400|height=380)
+![Card View](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/cardview.PNG| width=400| height=380)
 
 # Video Demo
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/UNNqTCVh8Hg/0.jpg)](http://www.youtube.com/watch?v=UNNqTCVh8Hg "Angular Material Search, Sorting with Grid & Card View")
