@@ -34,7 +34,7 @@ export class GridViewComponent implements OnInit {
     console.log(sender.target.value);
   }
   resetFilter(sender){
-    sender.value = "search here...";
+    //sender.value = "search here...";
   }
 
 }
