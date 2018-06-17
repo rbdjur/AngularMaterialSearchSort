@@ -1,0 +1,28 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<div class="container">
+        <div class="row">
+            
+            <div *ngFor="let item of empData" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">{{item.empName}}</h4>
+                        <div class="meta">
+                            <a href="#">{{item.code}}</a>
+                        </div>
+                        <div class="card-text">
+                           {{item.designation}}
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="float-right">{{item.department}}</span>
+                    </div>
+                </div>
+            </div>
+           
+			
+        </div>
+        
+        </div>

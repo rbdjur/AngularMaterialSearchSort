@@ -1,3 +1,4 @@
+import { EmployeeServices } from './GetEmployeesService';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -14,13 +15,19 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { CardViewComponent } from './card-view/card-view.component';
+import {MatCardModule} from '@angular/material/card';
+import { MainPageComponent } from './main-page/main-page.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBoxComponent,
     GridViewComponent,
-    ListViewComponent
+    ListViewComponent,
+    CardViewComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
@@ -33,9 +40,11 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatSortModule,
     MatPaginatorModule,
     MatProgressSpinnerModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule,
+    MatTabsModule,
   ],
-  providers: [],
+  providers: [EmployeeServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

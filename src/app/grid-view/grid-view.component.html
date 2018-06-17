@@ -1,8 +1,6 @@
 <mat-form-field>
     <input matInput
     #searchvalue
-    (click) = "rowClicked($event)"
-     value="search here..." 
      (keyup)="applyFilter($event.target.value)" placeholder="Filter"
      (blur) = 'resetFilter($event.target)'>
   </mat-form-field>
