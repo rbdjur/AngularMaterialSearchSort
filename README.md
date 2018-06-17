@@ -12,7 +12,7 @@
 ![Card View](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/cardview.PNG)
 
 # Video Demo
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/UNNqTCVh8Hg/0.jpg)](http://www.youtube.com/watch?v=UNNqTCVh8Hg"Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/UNNqTCVh8Hg/0.jpg)](http://www.youtube.com/watch?v=UNNqTCVh8Hg "Angular Material Search, Sorting with Grid & Card View")
 
 # SearchSortTool
 
