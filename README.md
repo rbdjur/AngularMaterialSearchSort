@@ -1,8 +1,19 @@
-#Searching
-![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/search.PNG)
+# Main Page
 
-#Sorting
+![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/mainpage.PNG)
+
+# Searching
+![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/Filter.PNG)
+
+# Sorting
 ![Sorting](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/sorting.PNG)
+
+# Card View
+![Card View](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/cardview.PNG)
+
+# Video Demo
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/UNNqTCVh8Hg/0.jpg)](http://www.youtube.com/watch?v=UNNqTCVh8Hg"Video Title")
+
 # SearchSortTool
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
