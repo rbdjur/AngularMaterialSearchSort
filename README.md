@@ -1,3 +1,8 @@
+#Searching
+![Searching](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/search.PNG)
+
+#Sorting
+![Sorting](https://github.com/martandsingh/AngularMaterialSearchSort/blob/master/src/images/sorting.PNG)
 # SearchSortTool
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
