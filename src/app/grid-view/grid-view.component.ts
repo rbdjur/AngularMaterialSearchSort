@@ -8,9 +8,14 @@ import { EmployeeServices } from '../GetEmployeesService';
   styleUrls: ['./grid-view.component.css']
 })
 export class GridViewComponent implements OnInit {
-  
+  @ViewChild(MatSort) sort: MatSort;
+
+  // displayed column name must match with matColumnDef in template.
+  displayedColumns = ['code', 'empName', 'department', 'designation'];
+  // displayedColumns = ['Annotations', 'FLC', 'FCC', 'FFN'];
+
   dataSource = new MatTableDataSource();
-  constructor(oEmp : EmployeeServices) {
+  constructor(oEmp: EmployeeServices) {
     this.dataSource = new MatTableDataSource(oEmp.getEmployee());
    }
 
@@ -18,20 +23,15 @@ export class GridViewComponent implements OnInit {
     console.log(this.sort); // loggin the sort object, try to check it out on browser console.
     this.dataSource.sort = this.sort;
   }
-  // displayed column name must match with matColumnDef in template.
-  displayedColumns = ['code', 'empName', 'department', 'designation'];
 
-  
-  @ViewChild(MatSort) sort: MatSort;
-  
   applyFilter(filterValue: string) {
     filterValue = filterValue.trim(); // Remove whitespace
     filterValue = filterValue.toLowerCase(); // MatTableDataSource defaults to lowercase matches
     this.dataSource.filter = filterValue;
   }
 
-  resetFilter(sender){
-    //sender.value = "search here...";
+  resetFilter(sender) {
+    // sender.value = "search here...";
   }
 
 }
